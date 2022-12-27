@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="1">
+        <file>
+            <url>web/jsp/signin.jsp</url>
+            <bookmark id="1">
+                <name/>
+                <line>41</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/src/java/DAO/SQLconnector.java</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/createaccount.jsp</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/signin.jsp</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/src/java/Servlet/checkCreate.java</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/src/java/controller/User.java</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/src/java/DAO/myQueury.java</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/Aboutus.html</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/src/java/Servlet/SigninServlet.java</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/css/picturesize.css</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/WEB-INF/tlds/newtag_library.tld</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/WEB-INF/web.xml</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/src/java/Servlet/checkvalid.java</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/css/navbarandcontainer.css</file>
+            <file>file:/D:/PRJ301/labwork/Assignment/MyPage/web/index.html</file>
+        </group>
+    </open-files>
+</project-private>

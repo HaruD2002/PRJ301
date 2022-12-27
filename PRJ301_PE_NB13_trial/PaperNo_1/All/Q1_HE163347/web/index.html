@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>  
+        <form method="post" action="enroll">
+            Student name: 
+            <input type="text" name="sname" id="sname"/>
+            <br>
+            Financial Source:
+            <input type="radio" name="fsource" value="Government"/>
+            <label>Government</label>
+            <input type="radio" name="fsource" value="Grant"/>
+            <label>Grant</label>
+            <input type="radio" name="fsource" value="Self-sponsor"/><br>
+            <label>Self-sponsor</label>
+            Level: 
+            <select name="lvl">
+                <option value="Bsc">Bsc</option>
+                <option value="Master">Master</option>
+                <option value="phD">phD</option>
+            </select>
+            <br><!-- comment -->
+            DOE:
+            <input type="date" name="doe"/><br>
+           <input type="submit" value="Save" name="save"/>
+        </form>
+    </body>
+</html>

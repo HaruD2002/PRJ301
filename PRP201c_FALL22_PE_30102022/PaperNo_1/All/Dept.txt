@@ -1,0 +1,5 @@
+ID	DeptName
+CS	Computer Science
+DA	Digital Art
+DM	Digital Maketting	
+	

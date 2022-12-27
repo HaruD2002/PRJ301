@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+    
+    <servlet>
+        <servlet-name>ValidateDateController</servlet-name>
+        <servlet-class>controller.ValidateDateController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ValidateDateController</servlet-name>
+        <url-pattern>/test/validate</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RegisterAccountController</servlet-name>
+        <servlet-class>controller.user.RegisterController</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>RegisterAccountController</servlet-name>
+        <url-pattern>/user/register</url-pattern>
+    </servlet-mapping>
+    
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

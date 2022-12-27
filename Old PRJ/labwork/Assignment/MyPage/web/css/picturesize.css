@@ -1,0 +1,12 @@
+.picture1 {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 0, 0.75);
+    border-radius: 10px;
+}
+
+.picture2 {
+    width: 100%;
+    background-color: rgba(255, 255, 0, 0.75);
+    border-radius: 10px;
+}

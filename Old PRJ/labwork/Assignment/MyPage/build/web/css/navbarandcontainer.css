@@ -1,0 +1,165 @@
+body{
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.header{
+    background-color: #60dfcd;
+    background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);display: block;
+    padding:0;
+    top:0;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+    height: 8%;
+    position: fixed;
+    box-shadow: 0px 10px 0px #000000;   
+    left:0;
+    right: 0;
+
+}
+
+.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit;
+    background-image: inherit;
+    border-radius: inherit;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: auto;
+}
+
+.header ul li{
+    display: inline;
+    margin-right: 1.5rem;
+    list-style: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: inherit;
+    float: left;
+    padding-left: 1rem;
+    
+}
+
+.header ul li a:hover{
+    text-shadow: 2px 3px purple;
+    color: white;
+    padding-top: inherit;
+    padding-bottom: inherit;
+}
+
+
+
+.header ul li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: inherit;
+    
+}
+.header ul li:last-child{
+    float: right;
+    text-align: inherit;
+    margin-right: 0.5rem;
+    
+}
+
+.footer {
+    background-color: #60dfcd;
+    background-image: linear-gradient(315deg, #60dfcd 0%, #1e9afe 74%);display: block;
+    padding:0;
+    position: fixed;
+    z-index: 0;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:auto;
+    width:100%;
+
+}
+
+.footer .listWrap{
+    display: inline-block;
+    justify-content: center;
+    float:right;
+    padding-right: 5rem;
+}
+
+
+.footer .listWrap ul{
+    list-style-type: none;
+}
+
+
+.footer .listWrap ul li{
+   
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 2rem;
+    
+}
+
+.footer .listWrap ul li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+
+
+
+
+
+.footer .listWrap ul li:last-child{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    float:right;
+    margin-right: 2rem;
+    
+}
+@media screen and (max-width: 1080px) {
+    
+}
+
+footer.listWrap .ending{
+    position:relative;
+    bottom:0;
+    right:0;
+    float:right;
+    margin-right:0px ;
+    display: block;
+    
+}
+
+
+.col-md-12{
+    width: 100%;
+    
+}
+.col-md-6{
+    width: 50%;
+}
+
+.col md-3{
+    width: 25%;
+}
+.first{
+    padding: 10rem 10rem 10rem 10rem;
+    position: relative;
+
+}
+
+
+
+.active{
+    background-color: blue;
+    
+}

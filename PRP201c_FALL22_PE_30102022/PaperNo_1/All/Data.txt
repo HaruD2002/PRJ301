@@ -1,0 +1,5 @@
+ID	Name		DeptID
+A001	Le Van Hoa	CS	
+A002	Ho Ngoc Hoa	CS	
+A003	Vo Ngoc Dat	DM		
+A004	Tran Le Nam	DA		

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+
+        <form id='citizenform' name='citizenform' method='post' action="">
+            <input type="date" name="dob" id="dob"/>
+            <input type="button" value="save" name="save" onclick="thisfunction()"/>
+        </form>
+
+        <script>
+            function thisfunction() {
+                const dob = document.getElementById('dob').value
+                // First check for the pattern
+                if (!/^\d\d\/\d\d\/\d\d\d\d$/.test(dob)) {
+                    return false;
+                }
+                const parts = s.split('/').map((p) => parseInt(p, 10));
+                parts[0] -= 1;
+                const d = new Date(parts[2], parts[0], parts[1]);
+                return d.getMonth() === parts[0] && d.getDate() === parts[1] && d.getFullYear() === parts[2];
+
+
+            }
+        </script>
+
+    </body>
+</html>

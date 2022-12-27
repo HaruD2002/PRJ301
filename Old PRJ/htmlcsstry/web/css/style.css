@@ -1,0 +1,29 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 09/05/2022, 9:49:40 AM
+    Author     : duynh
+*/
+
+.loginform{
+    display: block;
+    border: solid black 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    height: auto;
+    margin-left:30%;
+    top:50%;
+    background-color: lightblue;
+}
+
+.loginform form{
+    padding-top:2rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    
+    
+    
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            table{
+                margin-left: 50%;
+                margin-right: 50%;
+            }
+            td{
+                border: solid black 2px;
+                
+            }
+            
+            
+        </style>
+    
+    </head>
+    
+    
+    <body>
+        <form action = "create" method = "post">
+            <table>
+                <tr>
+                    <td>StudentID:</td>
+                    <td><input type = "text" name = "Ids"/></td>                
+                </tr>
+                <tr>
+                    <td>Student Name:</td>
+                    <td><input type ="text" name = "studentname"/></td>
+                </tr>
+                
+                <tr>
+                    <td>DOB:</td>
+                    <td><input type ="date" name = "DOB"/></td>
+                </tr>
+                
+                <tr>
+                    <td>Student Name:</td>
+                    <td><input type ="radio" name = "gender" value ="male"/>Male
+                   <input type ="radio" name = "gender" value ="female"/>Female</td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td><input type ="checkbox" name = "isSchool"/>is Scholar</td>
+                </tr>
+                
+                <tr>
+                    <td></td>
+                    <td><input type ="submit" name = "button" value = "Create"/></td>
+                </tr>
+            </table>
+        </form>    
+    </body>
+</html>

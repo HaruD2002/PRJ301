@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="validate" method="get" id="formregister">
+            User:
+            <input type="text" id="user" name="user"/>
+            <br>
+            <span id="userError" style="color:red"> </span><br>
+            Email:
+            <input type="text" id="email" name="email"/>
+            <br>
+            <span id="emailError"  style="color:red"></span><br>
+            Confirm:
+            <input type="text" id="confirm" name="confim"/>
+            <br><!-- comment -->
+            <span id="confirmerror"  style="color:red"></span><br>
+            <input type="submit" onclick="validate()" value="Register" />
+
+        </form>
+        <script>
+
+            function validateUsername() {
+                var username = document.getElementById("user").value;
+                var pattern = /^[a-zA-Z0-9]{6,32}$/;
+                return pattern.test(username);
+            }
+            validateEmail = () => {
+                {
+                    const email = document.getElementById('email').value
+                    const regrex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/
+                    return regrex.test(email)
+                }
+            }
+            validConfirm = () => {
+                const email = document.getElementById('email').value
+                const confirm = document.getElementById('confirm').value
+                if (email.length == 0 || confirm.length == 0) {
+                    return false;
+                }
+                return email === confirm
+            }
+
+            function validate() {
+                event.preventDefault();
+                let isPassed = true;
+                if (!validateUsername()) {
+                    document.getElementById("userError").innerHTML
+                            = "username must constain 6 to 32 characters";
+                    isPassed = false;
+                }
+                if (!validateEmail()) {
+                    document.getElementById("emailError").innerHTML
+                            = "email enter not correct";
+                    isPassed = false;
+                }
+                if (!validConfirm()) {
+                    document.getElementById('confirmerror').innerHTML = 'email did not match'
+                    isPassed= false
+                }
+                console.log(validConfirm())
+                if (isPassed) {
+                    document.getElementById("formregister").submit();
+                }
+            }
+        </script>
+    </body>
+</html>
